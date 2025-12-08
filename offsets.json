@@ -1,0 +1,106 @@
+{
+  "version": "Latest",
+  "patch": "Release-39.00-CL-48801071",
+  "encrypted_offsets": {
+    "UWorld": "0x172C8CB8",
+    "GNames": "0x17168D00",
+    "GNamesChunkOffset": "0x5F2",
+    "GObjects": "0x172467F0",
+    "GObjectsCount": "0x17246804"
+  },
+  "decryption_keys": {
+    "UWorldKey": "0x676DBEAB",
+    "GObjectsCountXorKey": "0x4B6BBC73",
+    "GObjectsArrayKey": "0x826A6103",
+    "GObjectsItemXorKey": "0xA059631B",
+    "FNameIndexXorKey": "0x7CEC2953"
+  },
+  "player_pawn_offsets": {
+    "LocalPlayers": "0x38",
+    "PlayerController": "0x30",
+    "PlayerCameraManager": "0x360",
+    "AcknowledgedPawn": "0x358",
+    "PlayerState": "0x2D0",
+    "TeamIndex": "0x11A9",
+    "bIsDying": "0x728",
+    "bIsDBNO": "0x841",
+    "bIsABot": "0x2BA",
+    "Platform": "0x440",
+    "TargetedFortPawn": "0x1820",
+    "KillScore": "0x11E0",
+    "PlayerName": "0x9F8",
+    "RankedProgress": "0xD8",
+    "PlayerAimOffset": "0x2BE8"
+  },
+  "world_offsets": {
+    "OwningGameInstance": "0x248",
+    "GameState": "0x1D0",
+    "PlayerArray": "0x2C8",
+    "WorldSettings": "0x2B8",
+    "WorldGravityZ": "0x330",
+    "WorldToMeters": "0x320",
+    "WorldTick": "0x198"
+  },
+  "actor_offsets": {
+    "RootComponent": "0x1B0",
+    "PawnPrivate": "0x328",
+    "AActor": "0x38",
+    "PersistentLevel": "0x38",
+    "Levels": "0x1E8",
+    "SuperField": "0x40",
+    "StaticFindObject": "0x83F8E",
+    "MoveIgnoreActors": "0x348"
+  },
+  "mesh_offsets": {
+    "Mesh": "0x330",
+    "MeshDeformerInstances": "0x5C0",
+    "BoneArray": "0x5F0",
+    "BoneCache": "0x5F8",
+    "BonesTide": "0x60",
+    "ComponentToWorld": "0x1E0",
+    "RelativeLocation": "0x140",
+    "RelativeScale3D": "0x170",
+    "ComponentVelocity": "0x188"
+  },
+  "camera_offsets": {
+    "AdditionalAimOffset": "0x2BB8",
+    "LastRenderTime": "0x32C",
+    "LocationUnderReticle": "0x2A68",
+    "CameraLocation": "0x178",
+    "CameraRotation": "0x188",
+    "CameraFOV": "0x3B4"
+  },
+  "weapon_offsets": {
+    "CurrentVehicle": "0x2B78",
+    "CurrentWeapon": "0x990",
+    "WeaponData": "0x5D8",
+    "AmmoCount": "0x144C",
+    "ReloadAnimation": "0x19E8",
+    "ItemName": "0x40",
+    "LWProjectile_ActivateRemovedTimestamp": "0x29A0"
+  },
+  "projectile_offsets": {
+    "ProjectileSpeed": "0x212C",
+    "ProjectileGravity": "0x2130",
+    "MaxTargetingAimAdjustPerSecond": "0x2338",
+    "ServerWorldTimeSecondsDelta": "0x2E8"
+  },
+  "item_offsets": {
+    "PrimaryPickupItemEntry": "0x3A8",
+    "ItemDefinition": "0x10",
+    "ItemType": "0xA8",
+    "ItemRarity": "0xAA",
+    "Tier": "0xA2",
+    "Rarity": "0xAA",
+    "bAlreadySearched": "0xD52"
+  },
+  "misc_offsets": {
+    "HabaneroComponent": "0x938",
+    "OverlappingBuildings": "0x1D48",
+    "RotationInput": "0x530"
+  },
+  "constants": {
+    "EAC_MAGIC_UWORLD": "0x00007FFFFFFF1AC0"
+  }
+}
+
