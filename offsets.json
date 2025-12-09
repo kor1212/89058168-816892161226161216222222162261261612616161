@@ -30,7 +30,11 @@
     "KillScore": "0x11E0",
     "PlayerName": "0x9F8",
     "RankedProgress": "0xD8",
-    "PlayerAimOffset": "0x2BE8"
+    "PlayerAimOffset": "0x2BE8",
+    "SkeletalMeshes": "0x6100",
+    "PlayerAimRotation": "0x6A18",
+    "RemoteViewPitch": "0x2C4",
+    "ControlRotation": "0x328"
   },
   "world_offsets": {
     "OwningGameInstance": "0x248",
@@ -99,8 +103,18 @@
     "OverlappingBuildings": "0x1D48",
     "RotationInput": "0x530"
   },
+  "stencil_chams_offsets": {
+    "SkeletalMeshes": "0x6100",
+    "CustomDepthStencilValue": "0x2AC",
+    "bRenderCustomDepth": "0x279",
+    "CustomDepthStencilWriteMask": "0x2A2"
+  },
+  "silent_aim_offsets": {
+    "PlayerAimRotation": "0x6A18",
+    "ControlRotation": "0x328",
+    "RemoteViewPitch": "0x2C4"
+  },
   "constants": {
     "EAC_MAGIC_UWORLD": "0x00007FFFFFFF1AC0"
   }
 }
-
