@@ -2,31 +2,31 @@
   "version": "Latest",
   "patch": "Release-39.00-CL-48801071",
   "encrypted_offsets": {
-    "UWorld": "0x172C8CB8",
-    "GNames": "0x17168D00",
+    "UWorld": "0x176B9A78",
+    "GNames": "0x175746C0",
     "GNamesChunkOffset": "0x5F2",
-    "GObjects": "0x172467F0",
-    "GObjectsCount": "0x17246804"
+    "GObjects": "0x176515C8",
+    "GObjectsCount": "0x176515C0"
   },
   "decryption_keys": {
-    "UWorldKey": "0x676DBEAB",
-    "GObjectsCountXorKey": "0x4B6BBC73",
-    "GObjectsArrayKey": "0x826A6103",
-    "GObjectsItemXorKey": "0xA059631B",
-    "FNameIndexXorKey": "0x7CEC2953"
+    "UWorldKey": "0xFFFFFFFFDC445031",
+    "GObjectsCountXorKey": "0xBC0BA8E",
+    "GObjectsArrayKey": "0xFFFFFFFF91478091",
+    "GObjectsItemXorKey": "0x8AB29D8E",
+    "FNameIndexXorKey": "0x3CCEE46E"
   },
   "player_pawn_offsets": {
     "LocalPlayers": "0x38",
     "PlayerController": "0x30",
-    "PlayerCameraManager": "0x360",
+    "PlayerCameraManager": "0x368",
     "AcknowledgedPawn": "0x358",
     "PlayerState": "0x2D0",
     "TeamIndex": "0x11A9",
     "bIsDying": "0x728",
     "bIsDBNO": "0x841",
     "bIsABot": "0x2BA",
-    "Platform": "0x440",
-    "TargetedFortPawn": "0x1820",
+    "Platform": "0x1B8",
+    "TargetedFortPawn": "0x730",
     "KillScore": "0x11E0",
     "PlayerName": "0x9F8",
     "RankedProgress": "0xD8",
@@ -37,7 +37,7 @@
     "ControlRotation": "0x328"
   },
   "world_offsets": {
-    "OwningGameInstance": "0x248",
+    "OwningGameInstance": "0x240",
     "GameState": "0x1D0",
     "PlayerArray": "0x2C8",
     "WorldSettings": "0x2B8",
@@ -49,7 +49,7 @@
     "RootComponent": "0x1B0",
     "PawnPrivate": "0x328",
     "AActor": "0x38",
-    "PersistentLevel": "0x38",
+    "PersistentLevel": "0x40",
     "Levels": "0x1E8",
     "SuperField": "0x40",
     "StaticFindObject": "0x83F8E",
@@ -61,7 +61,7 @@
     "BoneArray": "0x5F0",
     "BoneCache": "0x5F8",
     "BonesTide": "0x60",
-    "ComponentToWorld": "0x1E0",
+    "ComponentToWorld": "0x1A0",
     "RelativeLocation": "0x140",
     "RelativeScale3D": "0x170",
     "ComponentVelocity": "0x188"
@@ -70,22 +70,22 @@
     "AdditionalAimOffset": "0x2BB8",
     "LastRenderTime": "0x32C",
     "LocationUnderReticle": "0x2A68",
-    "CameraLocation": "0x178",
-    "CameraRotation": "0x188",
+    "CameraLocation": "0x170",
+    "CameraRotation": "0x180",
     "CameraFOV": "0x3B4"
   },
   "weapon_offsets": {
     "CurrentVehicle": "0x2B78",
-    "CurrentWeapon": "0x990",
+    "CurrentWeapon": "0x3DE",
     "WeaponData": "0x5D8",
-    "AmmoCount": "0x144C",
-    "ReloadAnimation": "0x19E8",
+    "AmmoCount": "0x5B8",
+    "ReloadAnimation": "0x788",
     "ItemName": "0x40",
     "LWProjectile_ActivateRemovedTimestamp": "0x29A0"
   },
   "projectile_offsets": {
-    "ProjectileSpeed": "0x212C",
-    "ProjectileGravity": "0x2130",
+    "ProjectileSpeed": "0x2750",
+    "ProjectileGravity": "0x2754",
     "MaxTargetingAimAdjustPerSecond": "0x2338",
     "ServerWorldTimeSecondsDelta": "0x2E8"
   },
@@ -99,7 +99,7 @@
     "bAlreadySearched": "0xD52"
   },
   "misc_offsets": {
-    "HabaneroComponent": "0x938",
+    "HabaneroComponent": "0x3AC",
     "OverlappingBuildings": "0x1D48",
     "RotationInput": "0x530"
   },
